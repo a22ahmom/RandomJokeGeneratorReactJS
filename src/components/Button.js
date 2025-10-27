@@ -2,9 +2,11 @@ import React from "react";
 import './Button.css';
 
 const Button = (props) => {
-    return <Button onClick={props.callApi}>
+    return (
+        <button onClick={props.CallApi}>
             Click to generate a joke.
-        </Button>;
+        </button>
+    );
 }
 
 export default Button;
